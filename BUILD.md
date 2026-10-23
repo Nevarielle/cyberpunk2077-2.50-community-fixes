@@ -8,3 +8,7 @@ Exact upstream commits, PR URLs, SDK revisions and CI artifact identifiers are i
 - The local Quickhack Hotkeys and Equipment-EX transformations are fully contained in `Build-Mod-Compatibility.ps1`, `patch-specs.json` and `patch-code/`. They require the original mod archives from their authors and produce byte-matching tested script outputs.
 
 The public packaging step reduces absolute PDB and diagnostic source-file paths in locally compiled DLLs to filenames without altering any executable section. This affects artifact hashes and diagnostic filenames, not program code. The executable section bytes were verified against the tested local build. The original authors' license notices are preserved and collected in `licenses/`.
+
+## CET 1.38.0
+
+The CET download is the unchanged official `cet_1_38_0.zip`, SHA-256 `6da2e91b07d5ea9dd4aa32145b2c2920a976abee481854976e2ae82169b612e1`. It matches the previously tested upstream CI artifact from run 39780865727, commit ed706fb8518712ffedf6b566e52873b257bc49fb. This collection did not build or modify its binaries.

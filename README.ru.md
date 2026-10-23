@@ -1,36 +1,35 @@
-# Cyberpunk 2077 2.50 — неофициальные исправления совместимости
+# Cyberpunk 2077 2.50 — отдельные обновления модов
 
-Набор опубликован **Nevarielle** и подготовлен с помощью **OpenAI Codex**. Авторы оригинальных модов и портов 2.50 перечислены в [CREDITS.md](CREDITS.md). Это тестовые сборки для Windows x64, Cyberpunk 2077 **2.50 / 3.0.88.46235**. Это не официальные релизы авторов модов.
+[English catalog](README.md) · [Скачать](https://github.com/Nevarielle/cyberpunk2077-2.50-community-fixes/releases/tag/v0.2.0-cp250) · [Авторы и вклад](CREDITS.md) · [Точные исходники](PROVENANCE.json)
 
-## Установка
+Каталог **всех 11 компонентов по отдельности**, которые обновлялись, собирались или настраивались при ремонте Cyberpunk 2077 **2.50 / 3.0.88.46235** на Windows. В том числе **CET 1.38.0**. Издатель — **Nevarielle**, подготовка с помощью **OpenAI Codex**. Авторство оригинальных модов, портов 2.50 и нашей работы указано раздельно.
 
-1. Закройте игру. Сохраните прежние архивы модов и резервную копию сохранений.
-2. На [странице релизов](https://github.com/Nevarielle/cyberpunk2077-2.50-community-fixes/releases) скачайте ZIP 01–04: RED4ext, redscript, ArchiveXL, Input Loader. Установите через Vortex вместо старых версий и выполните Deploy. ZIP 05 (Mod Settings) нужен для переназначения клавиш в игре.
-3. ZIP 06 (Codeware) и 07 (TweakXL) нужны для Equipment-EX и других модов с этими зависимостями. Сам Quickhack Hotkeys их дополнительно не требует.
-4. Скачайте оригинальный [Quickhack Hotkeys 2.3.2](https://www.nexusmods.com/cyberpunk2077/mods/7238). Его файлы здесь не публикуются.
-5. Распакуйте `Local_Compatibility_Tools_CP250.zip` и дважды щёлкните **Patch-Mods.html**. Выберите мод и оригинальный ZIP, нажмите **Создать исправленный ZIP**, затем **Сохранить ZIP**. Инструмент работает без интернета в современном Chrome, Edge или Firefox и никуда не отправляет файлы. Для Equipment-EX выберите его в том же окне.
+**Выберите нужный мод и откройте его страницу.** Установка всего каталога не требуется. Для каждого компонента указаны изменения, зависимости, способ установки, степень проверки и ограничения. Большинство портов сообщества экспериментальные; CET — неизменённая копия официального релиза.
 
-Дополнительный вариант для командной строки требует **PowerShell 7**. Подставьте свои пути:
+| Мод | Версия | Загрузка / статус | Подробности |
+| --- | --- | --- | --- |
+| **Cyber Engine Tweaks (CET)** | 1.38.0 | [ZIP](https://github.com/Nevarielle/cyberpunk2077-2.50-community-fixes/releases/download/v0.2.0-cp250/00_Cyber_Engine_Tweaks_1.38.0_CP250_Official.zip) — Официальный релиз, копия без изменений | [Страница](mods/cet.md) |
+| **RED4ext** | 1.30.0 + 47ac01c | [ZIP](https://github.com/Nevarielle/cyberpunk2077-2.50-community-fixes/releases/download/v0.2.0-cp250/01_RED4ext_1.30.0_CP250_Unofficial.zip) — Сборка CI разработчиков | [Страница](mods/red4ext.md) |
+| **redscript** | 0.5.x + PR 206 | [ZIP](https://github.com/Nevarielle/cyberpunk2077-2.50-community-fixes/releases/download/v0.2.0-cp250/02_redscript_PR206_CP250_Unofficial.zip) — Сборка CI из pull request | [Страница](mods/redscript.md) |
+| **ArchiveXL** | 1.27.5 + PR 31 | [ZIP](https://github.com/Nevarielle/cyberpunk2077-2.50-community-fixes/releases/download/v0.2.0-cp250/03_ArchiveXL_1.27.5_CP250_Unofficial.zip) — Локальная сборка порта сообщества | [Страница](mods/archivexl.md) |
+| **Input Loader** | 0.2.3 + main + 2.50 SDK | [ZIP](https://github.com/Nevarielle/cyberpunk2077-2.50-community-fixes/releases/download/v0.2.0-cp250/04_Input_Loader_0.2.3_CP250_Unofficial.zip) — Локальная пересборка исходников авторов | [Страница](mods/input-loader.md) |
+| **Mod Settings** | 0.2.21 + PR 33 | [ZIP](https://github.com/Nevarielle/cyberpunk2077-2.50-community-fixes/releases/download/v0.2.0-cp250/05_Mod_Settings_0.2.21_CP250_Unofficial.zip) — Локальная сборка порта сообщества | [Страница](mods/mod-settings.md) |
+| **Codeware** | 1.20.6 + PR 63 | [ZIP](https://github.com/Nevarielle/cyberpunk2077-2.50-community-fixes/releases/download/v0.2.0-cp250/06_Codeware_1.20.6_CP250_Unofficial.zip) — Локальная сборка порта сообщества | [Страница](mods/codeware.md) |
+| **TweakXL** | 1.11.5 + PR 22 | [ZIP](https://github.com/Nevarielle/cyberpunk2077-2.50-community-fixes/releases/download/v0.2.0-cp250/07_TweakXL_1.11.5_CP250_Unofficial.zip) — Локальная сборка порта сообщества | [Страница](mods/tweakxl.md) |
+| **Quickhack Hotkeys** | 2.3.2 + local compatibility patch | [ZIP](https://github.com/Nevarielle/cyberpunk2077-2.50-community-fixes/releases/download/v0.2.0-cp250/08_Quickhack_Hotkeys_2.3.2_CP250_Local_Patcher.zip) — Отдельный локальный патчер | [Страница](mods/quickhack-hotkeys.md) |
+| **Equipment-EX** | 1.2.9 + local compatibility patch | [ZIP](https://github.com/Nevarielle/cyberpunk2077-2.50-community-fixes/releases/download/v0.2.0-cp250/09_Equipment_EX_1.2.9_CP250_Local_Patcher.zip) — Отдельный локальный патчер | [Страница](mods/equipment-ex.md) |
+| **AutoLoot** | 3.11.2 personal customization | Not distributed / Не распространяется — Личная доработка описана; файлы не распространяются | [Страница](mods/autoloot.md) |
 
-```powershell
-.\Build-Mod-Compatibility.ps1 -Mod QuickhackHotkeys -OriginalArchive 'C:\Downloads\Quickhack Hotkeys.zip' -OutputArchive 'C:\Downloads\QuickhackHotkeys_CP250.zip'
-```
+## Как устанавливать
 
-6. Установите полученный ZIP через Vortex как замену оригинальному моду и выполните Deploy. Патчер проверяет точные контрольные суммы оригинала и не затрагивает ни установленную игру, ни исходный ZIP.
-7. Если используете Equipment-EX, скачайте [оригинал 1.2.9](https://www.nexusmods.com/cyberpunk2077/mods/6945) и создайте его исправленный архив:
+- **00–07:** закройте игру, замените соответствующую старую версию через Vortex, оставьте включённой одну копию и выполните Deploy. Зависимости указаны на странице выбранного компонента. Сохраните старые архивы и резервную копию сохранений.
+- **08–09:** это отдельные локальные патчеры. Скачайте точный оригинальный ZIP у автора, распакуйте патчер, откройте **Patch-Mods.html**, создайте и сохраните исправленный ZIP. Затем установите полученный архив в Vortex. Оригиналы этих модов не перепубликуются; браузерный инструмент не отправляет файлы на сервер.
+- **AutoLoot:** личная доработка 3.11.2 описана отдельно. Для публикации доработок авторы требуют разрешение; её архив, код, настройки и патчер не включены.
 
-```powershell
-.\Build-Mod-Compatibility.ps1 -Mod EquipmentEX -OriginalArchive 'C:\Downloads\Equipment-EX.zip' -OutputArchive 'C:\Downloads\EquipmentEX_CP250.zip'
-```
+CET 1.38.0 нужен Lua-модам на CET; для Quickhack Hotkeys он не требуется. Обновление CET само по себе не обновляет каждый Lua-мод. При появлении совместимых официальных обновлений лучше переходить на них.
 
-Установите полученный ZIP вместо старого Equipment-EX. Оставляйте включённой только одну версию каждого мода. CET для Quickhack Hotkeys не требуется; моды на CET обновляйте отдельно.
+## Что проверено
 
-## Проверка и ограничения
+Проверены запуск CET и базовые Lua/TweakDB/RTTI-вызовы; загрузились пять нативных библиотек, скомпилировались скрипты. Пользователь подтвердил работу клавиш взломов. Проверки отдельных возможностей и ограничения перечислены на страницах модов. Личная доработка AutoLoot прошла 24 проверки поведения и проверку синтаксиса 10 Lua-файлов; помощник не проверял её в живой игре.
 
-На одном компьютере с указанной версией игры загрузились все пять нативных библиотек, скрипты скомпилировались, Input Loader добавил клавиши взломов, а TweakXL применил изменения Equipment-EX. Издатель подтвердил работу горячих клавиш в игре. Все остальные моды, геймпад и каждое меню настроек полностью не проверялись.
-
-В выбранном порте ArchiveXL пока отключены расширение журнала и горячая перезагрузка ресурсов. Соответствующие сообщения в логах допустимы; Quickhack Hotkeys не требует этих функций. Если появятся совместимые официальные обновления, предпочтительнее переходить на них.
-
-Quickhack Hotkeys сохраняет штатную логику открытия меню версии 2.50 и добавляет к ней обработчики клавиш. В Equipment-EX устранена ошибка передачи временного массива фильтров. Нативные порты созданы авторами, указанными в CREDITS; Codex помог с интеграцией, сборкой, этими локальными правками и проверкой.
-
-Игровые файлы, сохранения, личные настройки и резервные копии в публичный набор не включены. Оригиналы Quickhack Hotkeys и Equipment-EX не перепубликуются: локальный патчер собирает исправленные ZIP из скачанных вами оригиналов.
+Создатели модов, авторы портов 2.50 и вклад проекта перечислены в [CREDITS.md](CREDITS.md). CET и чужие порты не представлены как код, написанный Codex. В публикацию не входят игровые бинарники, сохранения, личные настройки или резервные копии. Контрольные суммы — в `SHA256SUMS.txt`.

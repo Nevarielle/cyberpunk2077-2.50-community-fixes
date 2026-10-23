@@ -58,14 +58,35 @@
   "collection": {
     "publisher": "Nevarielle",
     "assisted_by": "OpenAI Codex",
-    "release": "v0.1.0-cp250",
+    "release": "v0.2.0-cp250",
     "date": "2026-10-23",
-    "binary_metadata": "Local DLL PDB and diagnostic source paths reduced to filenames; executable sections unchanged."
+    "binary_metadata": "Local DLL PDB and diagnostic source paths reduced to filenames; executable sections unchanged.",
+    "scope": "Independent component catalog; each mod has its own download or distribution status."
   },
   "validation": {
     "native_builds": "Five native plugins compiled successfully.",
     "runtime": "One Windows installation of game 2.50 / 3.0.88.46235; all five plugins loaded; redscript compilation and Input Loader merge completed; Equipment-EX tweaks executed.",
     "gameplay": "Publisher confirmed quickhack hotkeys work.",
     "scope": "Keyboard quickhack use tested; controller support, every settings page and complete mod collections have not been exhaustively checked."
+  },
+  "Cyber Engine Tweaks": {
+    "version": "1.38.0",
+    "source": "https://github.com/maximegmd/CyberEngineTweaks/releases/tag/v1.38.0",
+    "commit": "ed706fb8518712ffedf6b566e52873b257bc49fb",
+    "ci_run": 39780865727,
+    "original_asset": "cet_1_38_0.zip",
+    "sha256": "6da2e91b07d5ea9dd4aa32145b2c2920a976abee481854976e2ae82169b612e1",
+    "distribution": "Unchanged mirror. Official release and tested CI artifact have the same SHA-256.",
+    "our_work": "Discovery, verified retrieval, installation and runtime smoke tests; no CET source changes."
+  },
+  "AutoLoot": {
+    "source": "https://www.nexusmods.com/cyberpunk2077/mods/5202",
+    "base": "3.11.2",
+    "distribution": "Not published; author permission required.",
+    "validation": {
+      "behaviorChecksPassed": 24,
+      "luaFilesSyntaxChecked": 10,
+      "liveGameTestedByAssistant": false
+    }
   }
 }

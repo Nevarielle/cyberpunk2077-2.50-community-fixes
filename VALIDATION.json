@@ -8,5 +8,11 @@
     "Native executable sections unchanged by PDB path cleanup.",
     "Public content scan, ZIP CRCs and SHA-256 passed."
   ],
-  "gui_note": "Browser UI rendering was not checked; local file navigation is unavailable to the browser automation tool."
+  "gui_note": "Browser UI rendering was not checked; local file navigation is unavailable to the browser automation tool.",
+  "catalog": {
+    "components": 11,
+    "downloadable_component_archives": 10,
+    "autoloot": "Personal work documented; no source or patch files distributed.",
+    "cet": "Official release SHA-256 matches the tested CI artifact."
+  }
 }
