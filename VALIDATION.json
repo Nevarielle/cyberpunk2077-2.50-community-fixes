@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-23",
+  "checks": [
+    "PowerShell 7 outputs reproduce both tested mod packages.",
+    "Browser JavaScript engine outputs reproduce both tested mod packages.",
+    "Wrong-mod ZIP input rejected.",
+    "Browser interface inline script syntax parsed.",
+    "Native executable sections unchanged by PDB path cleanup.",
+    "Public content scan, ZIP CRCs and SHA-256 passed."
+  ],
+  "gui_note": "Browser UI rendering was not checked; local file navigation is unavailable to the browser automation tool."
+}

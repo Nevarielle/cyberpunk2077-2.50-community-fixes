@@ -1,0 +1,71 @@
+{
+  "game": "Cyberpunk 2077 2.50 / 3.0.88.46235",
+  "RED4ext": {
+    "commit": "47ac01cd1d04a33f1748d1ebf8d8bf64814ee6c6",
+    "source": "https://github.com/WopsS/RED4ext/commit/47ac01cd1d04a33f1748d1ebf8d8bf64814ee6c6",
+    "ci_run": 39823025406,
+    "ci_zip_sha256": "ddbe3d1942329f167b910f1d2277ee6cdaa6f89266f5101f7c4999196faf66ef"
+  },
+  "redscript": {
+    "source": "https://github.com/jac3km4/redscript/pull/206",
+    "commit": "b11bc8f75282c0eed49db43a0367d4dc23d451a8",
+    "ci_run": 39829075559,
+    "ci_zip_sha256": "bcc65dada016a8186dea469d4f2bf742610c7fcdb74cf8b239a2509e8bffead4",
+    "ci_archive_embedded_revision": "a545c953ac0833fc1bf93c668ad7a781dd51af36 (CI pull-request merge build)"
+  },
+  "ArchiveXL": {
+    "source": "https://github.com/psiberx/cp2077-archive-xl/pull/31",
+    "commit": "5f7dc88292ba010d871c6d24797591359f243a11",
+    "build": "local MSVC 19.44 / xmake 3.1.2; tiltedcore.mimalloc pinned to 2.2.4"
+  },
+  "Codeware": {
+    "source": "https://github.com/psiberx/cp2077-codeware/pull/63",
+    "commit": "3af5aa7d63d5a6000a44439351316331140d02b8",
+    "build": "local MSVC 19.44 / xmake 3.1.2; tiltedcore.mimalloc pinned to 2.2.4"
+  },
+  "TweakXL": {
+    "source": "https://github.com/psiberx/cp2077-tweak-xl/pull/22",
+    "commit": "fee3a9427c321445c67487e42e79dd2977c35701",
+    "build": "local MSVC 19.44 / xmake 3.1.2; tiltedcore.mimalloc pinned to 2.2.4"
+  },
+  "Mod Settings": {
+    "source": "https://github.com/jackhumbert/mod_settings/pull/33",
+    "commit": "12abb06357112316f4ec08cf73875b393a694045",
+    "build": "local MSVC 19.44 / CMake Ninja; existing shipped scripts/assets retained"
+  },
+  "Input Loader": {
+    "source": "https://github.com/jackhumbert/cyberpunk2077-input-loader",
+    "commit": "f92f7dc97026eaa4208f530fa91c2c715ace7aff",
+    "sdk": "8350155d491fff8e9d01ffa2aa8d1bc4617a3cf3",
+    "build": "local MSVC 19.44 / CMake Ninja"
+  },
+  "Quickhack Hotkeys": {
+    "source": "https://www.nexusmods.com/cyberpunk2077/mods/7238",
+    "base": "2.3.2",
+    "personal_changes": "Wrap SetVisibility instead of replacing the game implementation. Ignore actions while the controller is inactive or has no player.",
+    "distribution": "Original mod not included; local transformer only."
+  },
+  "Equipment EX": {
+    "base": "1.2.9",
+    "personal_changes": "Store GetIntFiltersList result in a local before passing to SetData; preserve behavior.",
+    "source": "https://github.com/psiberx/cp2077-equipment-ex",
+    "distribution": "Original mod not included; local transformer only."
+  },
+  "limitations": [
+    "ArchiveXL PR: journal extension and resource hot reload are not ported and remain disabled. Other ArchiveXL features were not exhaustively checked.",
+    "Personal compatibility builds, not official stable releases."
+  ],
+  "collection": {
+    "publisher": "Nevarielle",
+    "assisted_by": "OpenAI Codex",
+    "release": "v0.1.0-cp250",
+    "date": "2026-10-23",
+    "binary_metadata": "Local DLL PDB and diagnostic source paths reduced to filenames; executable sections unchanged."
+  },
+  "validation": {
+    "native_builds": "Five native plugins compiled successfully.",
+    "runtime": "One Windows installation of game 2.50 / 3.0.88.46235; all five plugins loaded; redscript compilation and Input Loader merge completed; Equipment-EX tweaks executed.",
+    "gameplay": "Publisher confirmed quickhack hotkeys work.",
+    "scope": "Keyboard quickhack use tested; controller support, every settings page and complete mod collections have not been exhaustively checked."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "QuickhackHotkeys": {
+    "version": "2.3.2",
+    "original_url": "https://www.nexusmods.com/cyberpunk2077/mods/7238",
+    "target": "r6/scripts/Quickhack Hotkeys/quickhackHotkeys.reds",
+    "files": {
+      "archive/pc/mod/QuickhackHotkeys.archive": "0caaea9a5bda47d06489dcd39cc360f8f923daca7156710535cd76b88302d69f",
+      "r6/input/QuickhackHotkeys.xml": "271114191a6e2b518bf445345303b659bc9e97a573f8b6a240721db1eb47975b",
+      "r6/scripts/Quickhack Hotkeys/quickhackHotkeys.reds": "97c5441c372fde4749786548794f2fdeb1891c34c0007ad78f4d5f8b1d13f6fb"
+    },
+    "patched_sha256": "3709ec25e82f24c78a23f1092053578a2436bd07e728db62ed769553c5261a05"
+  },
+  "EquipmentEX": {
+    "version": "1.2.9",
+    "original_url": "https://www.nexusmods.com/cyberpunk2077/mods/6945",
+    "target": "r6/scripts/EquipmentEx/EquipmentEx.reds",
+    "files": {
+      "archive/pc/mod/EquipmentEx.archive": "55a438e9315ca227f12f90aacec0711914bd9241e60307242c204410f45ecf8e",
+      "archive/pc/mod/EquipmentEx.archive.xl": "1c74bd3100080dd71441a719d2923eb6ff1861390f07de1e2258b821744887df",
+      "r6/config/redsUserHints/EquipmentEx.toml": "ff31b37e95f99f24ad4dae64239bf4ed08b1e9b5fddc6d8216cb19e5bc004dd3",
+      "r6/scripts/EquipmentEx/EquipmentEx.Global.reds": "f2733852f9da51f9b04b2cabeba0294aef62fbffe8f3eadbd2236b50a6e62278",
+      "r6/scripts/EquipmentEx/EquipmentEx.reds": "8a28fe3dad71d8111c04f2eca28bf904606fb74f49e27f3d9a222af1375443ab",
+      "r6/scripts/EquipmentEx/LICENSE": "abbe8d2050ded0d446f3a8b3b8efe3a35b0f392392f61d75f49fe59bd56d84e1"
+    },
+    "patched_sha256": "36e3da8d5bc92bbe60c58d0f97203a67a2034fcc319948b13613b89cf2306671"
+  }
+}
